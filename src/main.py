@@ -7,7 +7,7 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from game_ui import GameUI
 from game_config import GameConfig
 from game_storage import GameStorage
-from game_maneger import GameManager
+from src.game_manager import GameManager
 
 def main():
     ui = GameUI()
